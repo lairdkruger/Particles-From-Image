@@ -13,7 +13,7 @@ class ThreeParticles extends ThreeShell {
                 resolve(x); // it went ok!
             }
             var loader = new THREE.TextureLoader();
-            loader.load('/../images/b.jpg', loadDone);
+            loader.load('/images/b.jpg', loadDone);
         });
 
         loaderPromise.
